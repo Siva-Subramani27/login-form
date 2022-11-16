@@ -1,0 +1,61 @@
+body{
+    background-image:url("https://media.istockphoto.com/photos/abstract-blurred-gradient-bright-mesh-banner-background-textureblue-picture-id1330343437?b=1&k=20&m=1330343437&s=170667a&w=0&h=YjzU_nIGLF_kDGue7V6O0tT6boe3zSHc3tp9CJ_CIRg=") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#insta{
+    height:400px;
+    border: 1px black;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    line-height: 30px;
+    box-shadow: 10px #888888;
+    background-image: linear-gradient(to bottom,#cc99ff 0%, #ff99cc 100%);
+    margin:5% 35%;
+}
+#btn{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    /* width: 400px; */
+    gap: 20px;
+    /* background-image: linear-gradient(to bottom,#cc99ff 0%, #ff99cc 100%); */
+}
+
+button{
+    font-size: 18px;
+    width: 180px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+button:hover{
+    background-color:#4267B2;
+    color: azure;
+}
+a{
+    text-decoration: none;
+}
+.logininput{
+    font-size: 18px;
+    position: absolute;
+    width: 200px;
+    /* display: none; */
+    top: 25%;
+    /* height: 400px; */
+    padding-left: 90px;
+    
+}
+.signupinput{
+    font-size: 18px;
+    position: absolute;
+    width: 200px;
+    display: none;
+    top: 22%;
+    /* height: 400px; */
+    padding-left: 90px;
+    
+}
